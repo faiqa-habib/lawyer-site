@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+} 
+
+.width-container {
+  width: 75%;
+  margin: 0 auto;
+} 
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  align-items: center;
+  padding: 30px 20px;
+  background-color: #272C3F;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 200px;
+  cursor: pointer;
+}
+
+.navbar-version {
+  color: #0091c9;
+  font-weight: bold;
+}
+
+.navbar-center {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.navbar-search {
+  padding: 06px 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+  width: 725px;
+}
+
+.navbar-shortcut {
+  margin-left: 10px;
+  color: #888;
+  font-size: 15px;
+  background-color: white;
+  padding: 7px;
+  border-radius: 5px
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+  font-family: sans-serif;
+}
+
+.navbar-right a:hover {
+  color: #D4C291;
+}
+
+
+
+.hero-img {
+  background-image: url("https://barristar-tailwind.wpocean.com/static/media/slide-4.4127ce1f313e0335279e.jpg");
+  height: calc(100vh - 100px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: normal;
+}
+
+.hero-btn {
+  background-color: #C0B596;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 38px;
+  padding-right: 38px;
+  width: 29%;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+.btn-line {
+  background-color: white;
+  width: 85px;
+  height: 2px;
+  top: 50%;
+  left: -60px;
+  position: absolute;
+}
+
+.hero-btn:hover {
+  background-color: #D4C291;
+}
+
+
+
+.about-us-section {
+  background-color: #F1F1F1;
+  padding-top: 50px;
+  padding-bottom: 95px;
+}
+
+
+
+.left-side {
+  position:relative ;
+}
+
+.about-img {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.about-img img {
+  width: 90%;
+  height: 100%;
+}
+
+.img-backgroung {
+  background-color: #C0B596;
+  width: 90%;
+  height: 112%;
+
+}
+
+
+
+
+.about-section {
+  margin-top: 100px;
+}
+
+.right-side p {
+  color: rgb(102 102 102)
+}
+
+.AboutUs-btn {
+  background-color: #C0B596;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 38px;
+  padding-right: 38px;
+  width: 35%;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+.services-cards{
+  margin-top: 50px;
+}
+
+
+.testimonials-line {
+  background-color: #C0B596;
+  width: 75px;
+  height:1px;
+  top: 3012px;
+  left:670px;
+  position: absolute;
+}
+
+.form-img{
+  background-image: url("https://barristar-tailwind.wpocean.com/static/media/1.1fc7c9ff3c1627170c2a.jpg");
+  height: 78%;
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-attachment: fixed;
+}
+.form-container{
+  background-color: rgba(21, 26, 48, .9);
+  width: 100%;
+  height: 78%;
+}
+.img-container{
+  gap: 10px;
+}
+
+.rating-section{
+  background-image: url("https://barristar-tailwind.wpocean.com/static/media/1.ce514ab7858537c8c201.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+}
+.rating-container{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  padding-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
